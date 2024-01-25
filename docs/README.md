@@ -3,8 +3,8 @@
 <br>
 <br>
 
-![LastCommit](https://img.shields.io/github/last-commit/EduardoAlvesNeto/educame?logo=Hello&logoColor=%23282828&style=for-the-badge)
-![CommitActivity](https://img.shields.io/github/commit-activity/w/EduardoAlvesNeto/educame?style=for-the-badge)
+![LastCommit](https://img.shields.io/github/last-commit/EduardoAlvesNeto/dinemate?logo=Hello&logoColor=%23282828&style=for-the-badge)
+![CommitActivity](https://img.shields.io/github/commit-activity/w/EduardoAlvesNeto/dinemate?style=for-the-badge)
 
 </div>
 
