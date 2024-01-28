@@ -1,7 +1,17 @@
+import 'reflect-metadata';
+
 import express from 'express';
 
-const app = express();
+import { AppDataSource } from './app/database/db';
 
-app.listen(3001, () => {
-  console.log('🚀 Server is running on http://localhost:3001');
-});
+AppDataSource.initialize()
+  .then(() => {
+    const app = express();
+
+    app.listen(3001, () => {
+      console.log('🚀 Server is running on http://localhost:3001');
+    });
+  })
+  .catch(() => {
+    console.log('⚠️ Database Error');
+  });
